@@ -1,21 +1,23 @@
 # Lexie Artistry Website
 
-A simple, SEO-friendly static website for Lexie Artistry, designed for GitHub Pages.
+Quiet luxury portfolio website for Lexie Artistry.
 
-## How to use
+## How to publish on GitHub Pages
 
-1. Create a GitHub repository named `lexie-artistry-website`.
-2. Upload `index.html`, `style.css`, and the `images` folder.
-3. In GitHub, go to Settings > Pages.
-4. Under Build and deployment, choose: Deploy from a branch.
-5. Select branch: `main`, folder: `/root`.
-6. Save.
+Upload all files and folders in this directory to the root of your GitHub repository:
 
-Your website will be published at:
-`https://ginjsx.github.io/lexie-artistry-website/`
+- `index.html`
+- `style.css`
+- `script.js`
+- `images/`
+- `README.md`
 
-## What to replace
+Then go to **Settings > Pages** and choose:
 
-- Replace the hero placeholder with your best bridal photo.
-- Replace gallery placeholders with real portfolio photos.
-- Replace the email inquiry button with your Google Form link when ready.
+- Source: Deploy from a branch
+- Branch: main
+- Folder: /root
+
+## To update social links
+
+Open `index.html` and replace `href="#"` for Instagram and Xiaohongshu with your real links.
