@@ -1,154 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lexie Artistry | Bridal Hair & Makeup</title>
-  <meta name="description" content="Lexie Artistry provides makeup artistry for wedding days, city hall celebrations, maternity, family, portraits, and destination weddings. Based in the San Francisco Bay Area and available for travel." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lexie Artistry | Bay Area Bridal Hair & Makeup</title>
+  <meta name="description" content="Lexie Artistry offers refined bridal hair and makeup for weddings, city hall ceremonies, maternity, family, portraits, and destination celebrations. Based in the San Francisco Bay Area." />
+  <meta property="og:title" content="Lexie Artistry | Bridal Hair & Makeup" />
+  <meta property="og:description" content="Refined bridal hair and makeup for modern celebrations. Based in the San Francisco Bay Area, available for destination weddings." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/hero.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Lexie Artistry home">
       <span>Lexie Artistry</span>
       <small>Makeup Artistry</small>
     </a>
 
-    <nav class="main-nav" aria-label="Main navigation">
+    <nav class="desktop-nav" aria-label="Main navigation">
       <a href="#portfolio">Portfolio</a>
       <a href="#experience">Experience</a>
       <a href="#pricing">Pricing</a>
       <a href="#inquire">Inquire</a>
     </nav>
+
+    <div class="social-links desktop-social" aria-label="Social links">
+      <a href="https://www.instagram.com/lexieartistry/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://xhslink.com/m/948nnXNOe5O" target="_blank" rel="noopener">小红书</a>
+    </div>
+
+    <button class="menu-button" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-photo">
-        <img src="images/hero.jpg" alt="Bride walking through a garden, bridal makeup by Lexie Artistry" />
-      </div>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="#portfolio">Portfolio</a>
+    <a href="#experience">Experience</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#inquire">Inquire</a>
+    <a href="https://www.instagram.com/lexieartistry/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://xhslink.com/m/948nnXNOe5O" target="_blank" rel="noopener">小红书</a>
+  </nav>
 
-      <div class="hero-text">
+  <main>
+    <section class="hero" aria-label="Lexie Artistry introduction">
+      <div class="hero-media">
+        <img src="images/hero.jpg" alt="Bride walking outdoors in a soft natural wedding setting" />
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">San Francisco Bay Area · Destination Weddings</p>
         <h1>Effortless beauty.<br />Timeless you.</h1>
-        <div class="rule"></div>
-        <p>
-          Natural, refined makeup for your most meaningful moments.
-          Based in the San Francisco Bay Area, available for destination weddings.
-        </p>
-        <a class="outline-button" href="#inquire">Inquire</a>
+        <p class="hero-text">Refined bridal hair and makeup for modern celebrations, intimate ceremonies, portraits, and meaningful milestones.</p>
+        <a href="#portfolio" class="text-link">View Portfolio</a>
       </div>
     </section>
 
-    <section id="portfolio" class="section portfolio-section">
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <span></span>
+    <section class="intro section-narrow">
+      <p>Soft, elegant beauty that still feels like you.</p>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="section-heading portfolio-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Curated collections of real clients.</h2>
       </div>
 
       <div class="portfolio-grid">
         <a class="portfolio-card" href="#">
-          <img src="images/wedding-day.jpg" alt="Wedding day bridal makeup by Lexie Artistry" />
-          <h3>Wedding Day</h3>
-          <p>Full-day bridal beauty</p>
-          <span>View Collection</span>
+          <figure><img src="images/wedding-day.jpg" alt="Wedding day bridal hair and makeup by Lexie Artistry" /></figure>
+          <div><h3>Wedding Day</h3><p>Full-day bridal beauty</p><span>View Collection</span></div>
         </a>
 
         <a class="portfolio-card" href="#">
-          <img src="images/city-hall.jpg" alt="City hall bridal makeup by Lexie Artistry" />
-          <h3>City Hall</h3>
-          <p>Intimate celebrations</p>
-          <span>View Collection</span>
+          <figure><img src="images/city-hall.jpg" alt="City hall bridal makeup look" /></figure>
+          <div><h3>City Hall</h3><p>Intimate celebrations</p><span>View Collection</span></div>
         </a>
 
         <a class="portfolio-card" href="#">
-          <img src="images/maternity.jpg" alt="Maternity makeup by Lexie Artistry" />
-          <h3>Maternity</h3>
-          <p>Soft & timeless portraits</p>
-          <span>View Collection</span>
+          <figure><img src="images/maternity.jpg" alt="Maternity makeup and styling portrait" /></figure>
+          <div><h3>Maternity</h3><p>Soft &amp; timeless portraits</p><span>View Collection</span></div>
         </a>
 
         <a class="portfolio-card" href="#">
-          <img src="images/family.jpg" alt="Family photoshoot makeup by Lexie Artistry" />
-          <h3>Family</h3>
-          <p>Beautiful moments together</p>
-          <span>View Collection</span>
+          <figure><img src="images/family.jpg" alt="Family portrait hair and makeup styling" /></figure>
+          <div><h3>Family</h3><p>Beautiful moments together</p><span>View Collection</span></div>
         </a>
 
         <a class="portfolio-card" href="#">
-          <img src="images/portraits.jpg" alt="Portrait and event makeup by Lexie Artistry" />
-          <h3>Portraits</h3>
-          <p>Editorial & special events</p>
-          <span>View Collection</span>
+          <figure><img src="images/portraits.jpg" alt="Portrait and event makeup by Lexie Artistry" /></figure>
+          <div><h3>Portraits</h3><p>Editorial &amp; special events</p><span>View Collection</span></div>
         </a>
       </div>
     </section>
 
-    <section class="section published-section">
-      <div class="section-title">
-        <h2>Published Weddings</h2>
-        <span></span>
+    <section class="published section-soft">
+      <div class="section-heading compact published-heading">
+        <p class="eyebrow">Published Weddings</p>
+        <h2>A selection of weddings featured by leading wedding publications.</h2>
       </div>
 
       <div class="published-grid">
-        <article class="published-item">
-          <h3>Park Winters</h3>
-          <p>Featured on Style Me Pretty</p>
-          <a href="https://www.stylemepretty.com/2024/06/25/a-relaxed-outdoor-wedding-in-calming-shades-of-blue-at-park-winters/" target="_blank" rel="noopener noreferrer">Read on Style Me Pretty</a>
-        </article>
+        <a class="published-card" href="https://www.stylemepretty.com/2024/06/25/a-relaxed-outdoor-wedding-in-calming-shades-of-blue-at-park-winters/" target="_blank" rel="noopener">
+          <figure><img src="images/park-winters.jpg" alt="Park Winters wedding featured on Style Me Pretty" /></figure>
+          <div class="published-copy">
+            <h3>Park Winters</h3>
+            <p>Featured on<br />Style Me Pretty</p>
+            <span>Read Story</span>
+          </div>
+        </a>
 
-        <article class="published-item">
-          <h3>Nasher Sculpture Center</h3>
-          <p>Featured on Style Me Pretty</p>
-          <a href="https://www.stylemepretty.com/2023/04/11/art-infused-intimate-outdoor-wedding-at-nasher-sculpture-center/" target="_blank" rel="noopener noreferrer">Read on Style Me Pretty</a>
-        </article>
+        <a class="published-card" href="https://www.stylemepretty.com/2023/04/11/art-infused-intimate-outdoor-wedding-at-nasher-sculpture-center/" target="_blank" rel="noopener">
+          <figure><img src="images/nasher.jpg" alt="Nasher Sculpture Center wedding featured on Style Me Pretty" /></figure>
+          <div class="published-copy">
+            <h3>Nasher Sculpture Center</h3>
+            <p>Featured on<br />Style Me Pretty</p>
+            <span>Read Story</span>
+          </div>
+        </a>
       </div>
     </section>
 
-    <section id="experience" class="section experience-section">
-      <div class="experience-photo">
-        <img src="images/work-1.jpg" alt="Lexie Artistry preparing a bridal makeup look" />
+    <section class="section experience" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">The Experience</p>
+        <h2>A calm, thoughtful process from inquiry to the final touch.</h2>
       </div>
-      <div class="experience-text">
-        <h2>The Lexie Experience</h2>
-        <div class="rule"></div>
-        <p>
-          Every detail matters. From your trial to the final touch, I’m here to make you feel calm,
-          confident, and beautiful—inside and out.
-        </p>
-        <a href="#">Learn More</a>
+
+      <div class="experience-row">
+        <article><span>01</span><h3>Inquiry</h3><p>Share your date, location, vision, and beauty needs.</p></article>
+        <article><span>02</span><h3>Trial</h3><p>Create a look that feels like you before the celebration.</p></article>
+        <article><span>03</span><h3>Wedding Day</h3><p>On-location styling with a calm, polished timeline.</p></article>
+        <article><span>04</span><h3>Travel</h3><p>Bay Area based and available for destination weddings.</p></article>
       </div>
     </section>
 
-    <section id="pricing" class="section pricing-section">
-      <h2>Pricing</h2>
-      <p>Wedding day, city hall, maternity, family, portraits, and destination wedding services are available.</p>
-      <a class="outline-button" href="#inquire">Request Pricing</a>
+    <section class="travel-note">
+      <img src="images/work-1.jpg" alt="Elegant bridal makeup detail by Lexie Artistry" />
+      <p>Based in the San Francisco Bay Area. Available for California, Texas, Miami, Hawaii, and destination celebrations.</p>
     </section>
 
-    <section id="inquire" class="section inquire-section">
-      <div class="connect">
-        <h2>Let’s Connect</h2>
-        <div class="social-links">
-          <a href="https://www.instagram.com/lexieartistry/" target="_blank" rel="noopener noreferrer">Instagram<br><small>@lexieartistry</small></a>
-          <a href="https://xhslink.com/m/948nnXNOe5O" target="_blank" rel="noopener noreferrer">小红书<br><small>@lexieartistry</small></a>
-        </div>
+    <section class="section pricing" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">Pricing</p>
+        <h2>Simple starting points for planning your beauty experience.</h2>
       </div>
 
-      <div class="booking-cta">
-        <h2>Ready to book?</h2>
-        <p>I’d love to hear from you.</p>
-        <a class="outline-button" href="mailto:lexieartistry@gmail.com">Inquire Now</a>
+      <div class="pricing-grid">
+        <article><h3>Wedding Day</h3><p>Bride &amp; groom packages are available for 3, 6, 8, and 10 hours.</p><a href="#inquire">Request Availability</a></article>
+        <article><h3>City Hall</h3><p>Elegant hair and makeup for intimate ceremonies and elopements.</p><a href="#inquire">Inquire</a></article>
+        <article><h3>Maternity &amp; Family</h3><p>Soft, camera-ready beauty for portraits and meaningful milestones.</p><a href="#inquire">Inquire</a></article>
+        <article><h3>Portraits</h3><p>Makeup for performances, concerts, events, photoshoots, and personal branding.</p><a href="#inquire">Inquire</a></article>
       </div>
+    </section>
+
+    <section class="about section-narrow">
+      <h2>Hi, I’m Lexie.</h2>
+      <p>I believe makeup should never hide who you are. My goal is simple: to help you feel like the most confident version of yourself — comfortable, beautiful, and unmistakably you.</p>
+    </section>
+
+    <section class="inquire section-soft" id="inquire">
+      <div class="section-heading compact">
+        <p class="eyebrow">Inquire</p>
+        <h2>Let’s create something beautiful.</h2>
+      </div>
+
+      <form action="mailto:lexieartistry@gmail.com" method="post" enctype="text/plain" class="inquiry-form">
+        <label>Wedding / Event Date<input type="text" name="date" placeholder="MM / DD / YYYY" /></label>
+        <label>Location<input type="text" name="location" placeholder="Venue, city, or destination" /></label>
+        <label>Service Type<select name="service"><option>Wedding Day</option><option>City Hall</option><option>Maternity</option><option>Family</option><option>Portraits</option><option>Destination Wedding</option></select></label>
+        <label>Your Email<input type="email" name="email" placeholder="your@email.com" /></label>
+        <label>Instagram / WeChat<input type="text" name="social" placeholder="Optional" /></label>
+        <label class="full">Message<textarea name="message" rows="5" placeholder="Tell me a little about your celebration."></textarea></label>
+        <button type="submit">Check Availability</button>
+      </form>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2026 Lexie Artistry. All rights reserved.</p>
+    <div>
+      <h2>Lexie Artistry</h2>
+      <p>Bridal Hair &amp; Makeup · San Francisco Bay Area</p>
+      <p>Available for destination weddings.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/lexieartistry/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://xhslink.com/m/948nnXNOe5O" target="_blank" rel="noopener">Xiaohongshu</a>
+      <a href="mailto:lexieartistry@gmail.com">lexieartistry@gmail.com</a>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
