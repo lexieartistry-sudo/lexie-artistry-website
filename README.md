@@ -1,23 +1,4 @@
-# Lexie Artistry Website
+# Lexie Artistry Website V0.2
 
-Quiet luxury portfolio website for Lexie Artistry.
-
-## How to publish on GitHub Pages
-
-Upload all files and folders in this directory to the root of your GitHub repository:
-
-- `index.html`
-- `style.css`
-- `script.js`
-- `images/`
-- `README.md`
-
-Then go to **Settings > Pages** and choose:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /root
-
-## To update social links
-
-Open `index.html` and replace `href="#"` for Instagram and Xiaohongshu with your real links.
+Upload all files in this folder to the root of the GitHub repository.
+Do not upload the zip file itself.
