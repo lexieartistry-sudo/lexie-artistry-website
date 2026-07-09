@@ -429,3 +429,183 @@ button[type="submit"]:hover{background:var(--text);color:var(--bg)}
 @media(max-width:620px){
   .site-header{min-height:74px}.mobile-menu{top:74px}.brand span{font-size:22px}.hero{padding:0 18px}.section{padding:68px 22px}.section-soft{padding:58px 22px}.portfolio-grid{grid-template-columns:1fr;width:min(370px, calc(100vw - 44px))}.portfolio-card{display:block;margin-bottom:8px}.published-card{grid-template-columns:1fr}.published-card img{min-height:260px}.experience-row,.pricing-grid{grid-template-columns:1fr}.travel-note p{font-size:30px}.footer{padding:48px 22px}.footer-links{display:grid;gap:14px}
 }
+
+/* Pricing Page */
+.pricing-hero{
+  max-width:880px;
+  margin:0 auto;
+  padding:108px 22px 74px;
+  text-align:center;
+}
+.pricing-hero h1{
+  max-width:760px;
+  margin:0 auto;
+  font-size:clamp(42px,5vw,68px);
+  line-height:1.06;
+  letter-spacing:.025em;
+}
+.pricing-hero p:last-child{
+  max-width:590px;
+  margin:28px auto 0;
+  color:var(--muted);
+  font-size:15px;
+}
+.pricing-page-section{
+  padding:78px clamp(22px,5vw,72px);
+}
+.pricing-page-heading{
+  max-width:650px;
+  margin:0 auto 44px;
+  text-align:center;
+}
+.pricing-page-heading h2{
+  font-size:clamp(30px,3.6vw,48px);
+  line-height:1.12;
+  letter-spacing:.025em;
+}
+.soft-block{
+  background:var(--paper);
+}
+.price-card-row{
+  max-width:1080px;
+  margin:0 auto;
+  display:grid;
+  gap:28px;
+}
+.price-card-row.single{
+  max-width:650px;
+}
+.price-card-row.three{
+  grid-template-columns:repeat(3,1fr);
+}
+.price-card{
+  min-height:250px;
+  padding:36px 30px 32px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.25);
+}
+.price-card.highlight{
+  background:rgba(255,255,255,.42);
+}
+.price-card h3,
+.note-card h3,
+.faq-list h3{
+  font-family:"Cormorant Garamond",serif;
+  font-size:31px;
+  font-weight:300;
+  letter-spacing:.035em;
+  line-height:1.08;
+  margin:0 0 16px;
+}
+.price-card p,
+.note-card p,
+.faq-list p,
+.pricing-cta p{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.75;
+}
+.price-card strong{
+  margin-top:36px;
+  font-family:"Cormorant Garamond",serif;
+  font-size:42px;
+  font-weight:300;
+  letter-spacing:.03em;
+}
+.service-list{
+  max-width:920px;
+  margin:0 auto;
+  border-top:1px solid var(--line);
+}
+.service-list div{
+  min-height:86px;
+  padding:22px 0;
+  display:grid;
+  grid-template-columns:1fr 1.4fr auto;
+  gap:28px;
+  align-items:center;
+  border-bottom:1px solid var(--line);
+}
+.service-list span{
+  font-family:"Cormorant Garamond",serif;
+  font-size:28px;
+  line-height:1.1;
+}
+.service-list em{
+  color:var(--muted);
+  font-size:13px;
+  font-style:normal;
+}
+.service-list strong{
+  font-family:"Cormorant Garamond",serif;
+  font-size:27px;
+  font-weight:300;
+  white-space:nowrap;
+}
+.detail-notes{
+  max-width:980px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:28px;
+}
+.note-card{
+  padding:34px 30px;
+  border:1px solid var(--line);
+}
+.pricing-faq{
+  padding-top:78px;
+  padding-bottom:82px;
+}
+.faq-list{
+  max-width:880px;
+  margin:0 auto;
+  display:grid;
+  gap:1px;
+  background:var(--line);
+}
+.faq-list article{
+  padding:34px 30px;
+  background:var(--paper);
+}
+.pricing-cta{
+  max-width:720px;
+  margin:0 auto;
+  padding:96px 22px 110px;
+  text-align:center;
+}
+.pricing-cta h2{
+  font-size:clamp(36px,4.2vw,58px);
+  line-height:1.08;
+}
+.pricing-cta p:not(.eyebrow){
+  max-width:500px;
+  margin:22px auto 32px;
+}
+.pricing-button{
+  display:inline-block;
+  border:1px solid var(--text);
+  padding:13px 44px;
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  transition:.25s ease;
+}
+.pricing-button:hover{
+  background:var(--text);
+  color:var(--bg);
+}
+@media(max-width:980px){
+  .price-card-row.three,.detail-notes{grid-template-columns:1fr}
+  .service-list div{grid-template-columns:1fr;gap:8px}
+  .price-card{min-height:220px}
+}
+@media(max-width:620px){
+  .pricing-hero{padding:78px 22px 56px}
+  .pricing-page-section{padding:62px 22px}
+  .price-card strong{font-size:36px}
+  .service-list span{font-size:25px}
+}
