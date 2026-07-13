@@ -458,10 +458,39 @@ button[type="submit"]:hover{background:var(--text);color:var(--bg)}
   margin:0 auto 44px;
   text-align:center;
 }
+.pricing-page-heading .eyebrow{
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:38px;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    letter-spacing:0.02em;
+
+    color:var(--text);
+
+    text-transform:none;
+
+    margin-bottom:14px;
+}
 .pricing-page-heading h2{
-  font-size:clamp(30px,3.6vw,48px);
-  line-height:1.12;
-  letter-spacing:.025em;
+    font-family:"Inter",sans-serif;
+
+    font-size:13px;
+
+    font-weight:300;
+
+    line-height:1.7;
+
+    letter-spacing:0.02em;
+
+    color:var(--muted);
+
+    max-width:560px;
+
+    margin:0 auto;
 }
 .soft-block{
   background:var(--paper);
@@ -608,32 +637,4 @@ button[type="submit"]:hover{background:var(--text);color:var(--bg)}
   .pricing-page-section{padding:62px 22px}
   .price-card strong{font-size:36px}
   .service-list span{font-size:25px}
-}
-
-/* Pricing typography adjustment */
-
-/* City Hall / Engagement 这类主标题 */
-.pricing-card h2,
-.pricing-card .package-title {
-  font-size: 42px;
-  line-height: 1.05;
-  font-weight: 300;
-  margin-bottom: 12px;
-}
-
-/* Intimate ceremonies and engagement sessions. 这类描述 */
-.pricing-card .description,
-.pricing-card .package-description {
-  font-size: 12px;
-  line-height: 1.6;
-  color: #7a756f;
-  margin-top: 6px;
-}
-
-/* Bride + Groom */
-.pricing-card h3,
-.pricing-card .service-name {
-  font-size: 21px;
-  line-height: 1.2;
-  font-weight: 300;
 }
