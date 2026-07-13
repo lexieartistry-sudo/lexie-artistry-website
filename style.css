@@ -609,3 +609,31 @@ button[type="submit"]:hover{background:var(--text);color:var(--bg)}
   .price-card strong{font-size:36px}
   .service-list span{font-size:25px}
 }
+
+/* Pricing typography adjustment */
+
+/* City Hall / Engagement 这类主标题 */
+.pricing-card h2,
+.pricing-card .package-title {
+  font-size: 42px;
+  line-height: 1.05;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+/* Intimate ceremonies and engagement sessions. 这类描述 */
+.pricing-card .description,
+.pricing-card .package-description {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #7a756f;
+  margin-top: 6px;
+}
+
+/* Bride + Groom */
+.pricing-card h3,
+.pricing-card .service-name {
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 300;
+}
