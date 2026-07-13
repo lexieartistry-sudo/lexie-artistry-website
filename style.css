@@ -538,11 +538,11 @@ button[type="submit"]:hover{background:var(--text);color:var(--bg)}
   line-height:1.75;
 }
 .price-card strong{
-  margin-top:36px;
+  margin-top:32px;          /* 从36改成32，离上面内容近一点 */
   font-family:"Cormorant Garamond",serif;
-  font-size:42px;
+  font-size:38px;           /* 从42改成38 */
   font-weight:300;
-  letter-spacing:.03em;
+  letter-spacing:.02em;     /* 稍微收一点字距 */
 }
 .service-list{
   max-width:920px;
