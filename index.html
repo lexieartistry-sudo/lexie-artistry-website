@@ -167,11 +167,11 @@
         <h2>Let’s create something beautiful.</h2>
       </div>
 
-      <form action="mailto:lexieartistry@gmail.com" method="post" enctype="text/plain" class="inquiry-form">
-        <label>Wedding / Event Date<input type="text" name="date" placeholder="MM / DD / YYYY" /></label>
-        <label>Location<input type="text" name="location" placeholder="Venue, city, or destination" /></label>
+      <form action="https://formspree.io/f/xwvgkrdw" method="POST" class="inquiry-form">
+        <label>Wedding / Event Date<input type="text" name="date" placeholder="MM / DD / YYYY" required /></label>
+        <label>Location<input type="text" name="location" placeholder="Venue, city, or destination" required /></label>
         <label>Service Type<select name="service"><option>Wedding Day</option><option>City Hall</option><option>Maternity</option><option>Family</option><option>Portraits</option><option>Destination Wedding</option></select></label>
-        <label>Your Email<input type="email" name="email" placeholder="your@email.com" /></label>
+        <label>Your Email<input type="email" name="_replyto" placeholder="your@email.com" required /></label>
         <label>Instagram / WeChat<input type="text" name="social" placeholder="Optional" /></label>
         <label class="full">Message<textarea name="message" rows="5" placeholder="Tell me a little about your celebration."></textarea></label>
         <button type="submit">Check Availability</button>
